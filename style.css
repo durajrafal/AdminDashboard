@@ -174,4 +174,83 @@ li:hover{
 .main{
     grid-area: main;
     background-color: var(--dashboard-grey);
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects > h3{
+    margin-left: 20px;
+}
+
+.updates{
+    text-align: center;
+    padding-right: 20px;
+}
+
+.updates > div{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.updates h5{
+    margin: 0;
+    text-align: start;
+}
+
+.updates h3{
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.updates h3:not(:first-child){
+    margin-top: 30px;
+}
+
+.side-cart{
+    padding: 25px;
+    box-shadow: 4px 4px 8px -2px rgb(200, 200, 200);
+}
+
+.announcement p{
+    font-size: 0.7rem;
+    margin: 0;
+    color: rgb(80,80,80);
+    text-align: justify;
+}
+
+.side-cart hr{
+    margin: 15px -8px;
+    color: var(--dashboard-grey);
+}
+
+.trend{
+    display: flex;
+    gap: 20px;
+}
+
+.trend:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.trend-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    font-size: 0.9rem;
+}
+
+.trend-text span:first-child{
+    font-weight: 500;
+}
+
+.trend-text span:last-child{
+    color: rgb(100,100,100);
+}
+
+.trend img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
 }
