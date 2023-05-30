@@ -214,11 +214,15 @@ li:hover{
 
 .cart-content{
     padding: 30px 40px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cart-buttons{
     display: flex;
     justify-content: end;
+    align-items: end;
     gap: 30px;
 }
 
